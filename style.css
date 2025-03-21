@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Helvetica Neue",Helvetica;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+
+section{
+
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+nav{
+    padding: 5px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+.part-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  gap: 70px;
+  position: relative;
+}
+
+nav h1{
+    font-size: 30px;
+}
+nav h1 i{
+    display: inline-block;
+    transform:rotate(45deg) ;
+    font-size: 35px;
+}
+nav h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+nav button{
+    padding: 22px 40px;
+    background-color: transparent ;
+    font-size: 22px;
+    font-weight: 600;
+    border: 2px solid #000 ;
+    border-radius: 18px;
+}
+
+.center{
+display: flex;
+height: 80%;
+width: 100%;
+padding: 50px 75px;
+}
+
+.center-part-1{
+height: 100%;
+width: 45%;
+}
+.center-part-2{
+
+    height: 100%;
+    width: 55%;
+}
+.center-part-1 h1{
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.18;
+}
+.center-part-1 p{
+    font-size: 19px;
+    width: 95%;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-bottom: 32px;
+}
+.center-part-1 button{
+    background-color: #000;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 17px 40px;
+    font-size: 20px;
+    border: none;
+    font-weight: 100;
+
+}
+
+.center-part-2 img{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+}
