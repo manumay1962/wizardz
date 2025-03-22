@@ -39,7 +39,7 @@ tl.from(".section-bottom img",{
 })
  
 }
-
+page1animation()
  
 
  var tl2=gsap.timeline({
